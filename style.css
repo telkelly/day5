@@ -1,0 +1,98 @@
+/* index */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #5e548e;
+    padding: 5px 0;
+    color: white;
+}
+
+.icon{
+    float: left;
+    padding-left: 15px;
+}
+
+.menu{
+    float: right;
+    padding: 15px;
+}
+
+.menu ul li a{
+    padding-left: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: none;
+display: inline-block;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #5e548e;
+  color: white;
+}
+
+.name{
+    float: left;
+    margin-left: 15px;
+}
+
+.date{
+    float: right;
+    margin-right: 15px;
+}
+
+/* product */
+
+.product{
+    position: relative;
+    width: 260px;
+}
+
+.new{
+    position: absolute;
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+    border-radius: 20px;
+}
+
+.sale{
+    position: absolute;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    border-radius: 20px;
+}
+
+.description{
+    text-align: center;
+}
+
+.price{
+    color: forestgreen;
+}
+
+.old-price{
+    color: gray;
+    font-size: 12px;
+    text-decoration: line-through;
+}
