@@ -93,10 +93,15 @@ display: inline-block;
     float: left;
 }
 
+
 .product img{
     width: 260px;
     height: 350px;
     border-radius: 15px;
+}
+
+.product img:hover{
+  box-shadow: 5px 5px 12px gray;
 }
 
 .new ,.sale{
@@ -125,7 +130,6 @@ display: inline-block;
     top: 10px;
     right: 10px;
     border-radius: 20px;
-    text-align: center;
 }
 
 .description{
@@ -150,6 +154,12 @@ display: inline-block;
     border: none;
     padding: 15px 20px;
     color: rgb(74, 65, 65);
+    cursor: pointer;
+    opacity: .9;
+}
+
+.to-buy:hover{
+  opacity: 2;
 }
 
 /* sign up */
@@ -188,18 +198,22 @@ button:hover {
   opacity:1;
 }
 
-.cancelbtn button{
+.loginbtn button{
   padding: 14px 20px;
-  background-color: #f44336;
 }
 
-.cancelbtn, .signupbtn {
+.loginbtn, .signupbtn {
   float: left;
   width: 50%;
 }
 
 .container {
   padding: 16px 400px;
+}
+
+.noacc{
+  background-color: white;
+  text-decoration: underline;
 }
 
 
